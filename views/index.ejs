@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+</head>
+<body>
+<h1> DVD search </h1>
+
+<form method="get" action="/dvds">
+    <input type="text"  name="title"/>
+
+    <select name="award">
+        <option value="Oscar"> Oscar </option>
+        <option value="Grammy"> Grammy </option>
+        </select>
+    <input type="submit" value="Search"/>
+</form>
+</body>
+</html>
